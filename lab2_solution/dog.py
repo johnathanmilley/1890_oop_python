@@ -1,3 +1,5 @@
+# Lab 2 Q1 Solution
+
 class Dog:
     def __init__(self, name, breed, age):
         self.name = name
@@ -5,7 +7,7 @@ class Dog:
         self.age = age
 
 def sameDog(dog1, dog2):
-    """ A test of deep equality in Dog objects """
+    """ A test of deep equality between 2 Dog objects """
     return (dog1.name == dog2.name
             and dog1.breed == dog2.breed
             and dog1.age == dog2.age)
