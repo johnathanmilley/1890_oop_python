@@ -1,6 +1,7 @@
 # Lab 2 Q1 Solution
 
 class Dog:
+    """ docstring goes here """
     def __init__(self, name, breed, age):
         self.name = name
         self.breed = breed
