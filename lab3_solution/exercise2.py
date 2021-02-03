@@ -30,6 +30,7 @@ class Employee(Person):
                 f'Position: {self.position}\n'
                 f'Salary: ${self.salary}')
 
+    # modifiers 
     def raise_amt(self, amt):
         self.salary += amt
 
@@ -69,17 +70,17 @@ p2 = Person("Buck", "Meek")
 e1 = Employee("John", "Smith", 12345, "Manager", 60000)
 e2 = Employee("Marge", "Simpson", 14245, "Realtor", 85000)
 
-print(e1)
-e1.raise_amt(15000)
+# print(e1)
 e1.change_position("Regional Manger")
-print(e1)
+e1.raise_amt(15000)
+# print(e1)
 # print(e2)
 
 s1 = Student("Mark", "Nobody", 200112442, ['math', 'english', 'gym', 'chemistry'])
 s2 = Student("Trish", "Noone", 234325223, ['coding', 'geography', 'gym', 'english'])
 
-# print(s1)
+print(s1)
 s1.drop_course('gym')
 s1.add_course('religion')
-# print(s1)
+print(s1)
 # print(s2)
