@@ -41,7 +41,6 @@ class Window(QMainWindow):
     def _createStatusBar(self):
         status = QStatusBar()
         status.showMessage('I am the Status Bar')
-        status.
         self.setStatusBar(status)
 
 
