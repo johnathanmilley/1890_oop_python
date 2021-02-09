@@ -2,7 +2,7 @@
 
 For this section of the course we learn to use a third-party Python library, PyQt5, to build GUI applications. 
  
-## Week 5 & 6 Learning How to Build a GUI
+## Week 5 & 7 Learning How to Build a GUI
 
 [Real Python - Python and PyQt5: Build a Calculator](https://realpython.com/python-pyqt-gui-calculator/)
 
