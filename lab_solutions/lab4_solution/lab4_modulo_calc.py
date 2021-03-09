@@ -13,7 +13,7 @@ from PyQt5.QtWidgets import QVBoxLayout
 from PyQt5.QtWidgets import QWidget
         
 def calculate_modulo():
-    if a.text() and n.text() :
+    if a.text() and n.text():
         result.setText(f'{a.text()} mod {n.text()} = ' +
                        f'{int(a.text()) % int(n.text())}')
     else:
