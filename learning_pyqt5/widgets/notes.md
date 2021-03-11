@@ -1,4 +1,10 @@
-# A Note on Layouts and Widgets
+# Week 8: More Widgets
+
+## Code Files
+
+- `widget_gallery.py` — This code was obtained from the [official pyqt repo](https://github.com/pyqt/examples). I have added some comments for teaching purposes. 
+- `widget_list.py` — Some additional code that I wrote that contains a number of widgets.
+
 
 ## Adding layouts and widgets to the window
 
