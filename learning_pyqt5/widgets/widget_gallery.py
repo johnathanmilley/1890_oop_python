@@ -57,7 +57,8 @@ class WidgetGallery(QDialog):
 
         # A QComboBox is a drop-down menu widget
         styleComboBox = QComboBox()
-        styleComboBox.addItems(QStyleFactory.keys())
+        combobox_list = ['coke', 'pepsi', 'rc cola']
+        styleComboBox.addItems(combobox_list)
 
         # The '&' before a string name creates a keyboard short cut (ALT + S, in this example)
         styleLabel = QLabel("&Style:")

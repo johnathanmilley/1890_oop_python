@@ -96,7 +96,7 @@ class ListOfWidgets(QDialog):
         second_tab_layout = QVBoxLayout()
 
         # Creating a slider that updates a label with the current value
-        self.slider = QSlider(Qt.Horizontal, self.tab_group)
+        self.slider = QSlider(Qt.Vertical, self.tab_group)
         self.slider.setValue(10)
         self.slider.valueChanged.connect(self.slider_moved)
         
@@ -113,7 +113,7 @@ class ListOfWidgets(QDialog):
         self.tab_group.addTab(second_tab, '&Second')
 
     def slider_moved(self):
-        self.slider_label.setText(f'<h1 style="color: red;">{str(self.slider.value())}</h1>')
+        self.slider_label.setText(f'<h1 style="color: red;">{self.slider.value()}</h1>')
 
 if __name__ == '__main__':
 
