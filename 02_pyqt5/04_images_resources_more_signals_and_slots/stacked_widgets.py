@@ -13,7 +13,6 @@ from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import (QApplication, QLabel, QMainWindow, QPushButton, QSlider,
                                 QStackedWidget, QStatusBar, QToolBar, QVBoxLayout, QWidget)
 
-
 class StackedWidgets(QMainWindow):
     """Main Window"""
     def __init__(self, parent=None):
