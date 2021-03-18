@@ -23,7 +23,7 @@ class StackedWidgets(QMainWindow):
         
         # This method of getting the system path will be compatible on all OS
         current_dir = os.path.dirname(os.path.abspath(__file__))
-        styles = os.path.join(current_dir, 'styles.css')
+        styles = os.path.join(current_dir, 'stacked_widgets.css')
         with open(styles, 'r') as f:
             # Use external stylesheet
             self.setStyleSheet(f.read())

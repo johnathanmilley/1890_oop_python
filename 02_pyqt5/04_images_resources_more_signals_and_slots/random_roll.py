@@ -3,7 +3,6 @@
     John Milley
 """
 
-import resources
 import random
 import sys
 

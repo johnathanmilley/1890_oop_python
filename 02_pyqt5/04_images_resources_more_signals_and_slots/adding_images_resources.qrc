@@ -1,0 +1,10 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>images/linux_win.jpg</file>
+    <file>images/windows_win.jpg</file>
+    <file>images/windows_v_linux.jpg</file>
+    <file>images/ms_loves_linux.png</file>
+    <file>icons/linux.png</file>
+    <file>icons/windows.png</file>
+</qresource>
+</RCC>

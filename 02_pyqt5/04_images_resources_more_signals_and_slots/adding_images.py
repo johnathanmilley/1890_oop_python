@@ -22,7 +22,7 @@
     John Milley
 """
 
-import resources
+import adding_images_resources
 import sys
 
 from PyQt5.QtCore import Qt

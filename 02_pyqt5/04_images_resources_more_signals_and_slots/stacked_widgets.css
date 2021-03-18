@@ -1,0 +1,16 @@
+/* Not really a .css file. Pyqt sees this as a plain text file with 
+some subset of CSS rules in it that are understood in Pyqt */
+
+QWidget#screen_1 {
+    background-color: rgb(106, 106, 212);
+}
+
+QWidget#screen_2 {
+    background-color: rgb(88, 219, 147);
+}
+
+QLabel {
+    font-size: 40px;
+    color: white;
+    text-align: center; /* note that this is NOT supported */
+}
