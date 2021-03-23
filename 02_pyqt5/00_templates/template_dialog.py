@@ -7,7 +7,7 @@ import sys
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import (QPixmap, QFont, QIcon)
 from PyQt5.QtWidgets import (QApplication, QCheckBox, QComboBox, QDateTimeEdit,
-        QDial, QDialog, QDialogButtonBox, QGridLayout, QGroupBox, QHBoxLayout, QLabel, QLineEdit, QMainWindow, QProgressBar, QPushButton, QRadioButton, QScrollBar, QSizePolicy, QSlider, QSpinBox, QStatusBar, QStyleFactory, QToolBar, QTabWidget, QTextEdit, QVBoxLayout, QWidget)
+        QDial, QDialog, QDialogButtonBox, QGridLayout, QGroupBox, QHBoxLayout, QLabel, QLineEdit, QMainWindow, QProgressBar, QPushButton, QRadioButton, QScrollBar, QSizePolicy, QSlider, QSpinBox, QStackedWidget, QStatusBar, QStyleFactory, QToolBar, QTabWidget, QTextEdit, QVBoxLayout, QWidget)
 
 class Dialog(QDialog):
     """Dialog"""
