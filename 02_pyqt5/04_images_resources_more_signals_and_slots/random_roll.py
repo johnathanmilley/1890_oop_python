@@ -22,7 +22,7 @@ class RandomRoll(QDialog):
         self.setLayout(self.main_layout)
         
         self.roll_label = QLabel("-")
-        self.roll_label.setFont(QFont('Monospace', 40))
+        self.roll_label.setFont(QFont('Times', 100))
         self.roll_label.setAlignment(Qt.AlignCenter)
         self.roll_label.setStyleSheet('color: white;')
 

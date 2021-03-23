@@ -4,7 +4,6 @@
 """
 
 from functools import partial
-import resources
 import os
 import sys
 
@@ -19,7 +18,7 @@ class StackedWidgets(QMainWindow):
         """Initializer"""
         super().__init__(parent)
         self.setWindowTitle('QMainWindow')
-        self.setFixedSize(250, 250)
+        # self.setFixedSize(400, 400)
         
         # This method of getting the system path will be compatible on all OS
         current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -65,8 +64,8 @@ class StackedWidgets(QMainWindow):
         # setNativeMenuBar(False) necessary for macOS
         # self.menuBar().setNativeMenuBar(False) 
         self.menu.addAction('&Exit', self.close)
-        self.screen.addAction('1', partial(self.show_screen, 0))
-        self.screen.addAction('2', partial(self.show_screen, 1))
+        self.screen.addAction('1', self.show_screen_one) # not using functools
+        self.screen.addAction('2', self.show_screen_two) 
     
     def _create_tool_bar(self):
         tools = QToolBar()
@@ -74,8 +73,14 @@ class StackedWidgets(QMainWindow):
         tools.addAction('1', partial(self.show_screen, 0))
         tools.addAction('2', partial(self.show_screen, 1))
 
-    def show_screen(self, i):
-        self.stack.setCurrentIndex(i)
+    def show_screen(self, index):
+        self.stack.setCurrentIndex(index)
+
+    def show_screen_one(self):
+        self.stack.setCurrentIndex(0)
+
+    def show_screen_two(self):
+        self.stack.setCurrentIndex(1)
 
 if __name__ == '__main__':
     """Some of the responsibilities of QApplication:

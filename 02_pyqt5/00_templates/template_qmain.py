@@ -2,7 +2,6 @@
     QMainWindow template with Menu, Toolbar, Statusbar
 '''
 
-
 import sys
 
 from PyQt5.QtCore import Qt

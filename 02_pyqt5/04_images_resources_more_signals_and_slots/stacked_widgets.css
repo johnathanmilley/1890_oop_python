@@ -10,7 +10,7 @@ QWidget#screen_2 {
 }
 
 QLabel {
-    font-size: 40px;
+    font-size: 80px;
     color: white;
     text-align: center; /* note that this is NOT supported */
 }
