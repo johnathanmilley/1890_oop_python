@@ -44,9 +44,6 @@ class ScoreKeeper(QMainWindow):
         self.logo_pixmap = QPixmap(':/img/score.png')
         self.logo_label.setPixmap(self.logo_pixmap)
 
-        self.num_players_layout = QHBoxLayout()
-        self.num_players_layout.setContentsMargins(10,50,10,10) #left, top, right, bottom
-
         self.create_game_btn = QPushButton("Create Scoreboard")
         self.create_game_btn.clicked.connect(self.create_scoreboard)
 
