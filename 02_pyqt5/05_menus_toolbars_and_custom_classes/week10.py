@@ -44,6 +44,7 @@ class MainWindow(QMainWindow):
         self._central_widget.setLayout(self.main_layout)
         self.setCentralWidget(self._central_widget)
 
+
         self.d1 = Dice()
         d2 = Dice() # note that this one will not work properly (as in class...)
         self.d3 = Dice()
